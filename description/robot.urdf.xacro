@@ -2,7 +2,8 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
 
     <xacro:include filename="robot_core.xacro" />
-    <xacro:include filename="gazebo_control.xacro" />
+    <!-- <xacro:include filename="gazebo_control.xacro" /> Commented out as ros2_control.xarco is going to take precendent -->
     <xacro:include filename="camera.xacro" />
+    <xacro:include filename="ros2_control.xacro" />
 
 </robot>
